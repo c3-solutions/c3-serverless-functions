@@ -1,0 +1,14 @@
+service: c3-serverless-graphql
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+
+functions:
+  members:
+    handler: handler.members
+    events:
+    - http:
+        path: members
+        method: get
+        cors: true

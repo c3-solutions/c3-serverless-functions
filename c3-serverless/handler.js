@@ -5,8 +5,6 @@ const conf = require('./config.js')
 
 module.exports.hello = async event => {
 
-  const users = []
-
   const response = await axios({
     method: 'get',
     url: 'https://api.github.com/orgs/c3-solutions/members',
