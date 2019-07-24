@@ -24,6 +24,7 @@ module.exports.members = async event => {
                     email
                     avatarUrl
                     websiteUrl
+                    url
                   }
                 }
               }
@@ -35,6 +36,10 @@ module.exports.members = async event => {
 
     return {
     statusCode: 200,
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Credentials': true,
+    },
     body: JSON.stringify(response.data.data.organization.membersWithRole.edges),
     };
   } catch (error) {
