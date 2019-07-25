@@ -2,7 +2,7 @@
 
 AWS Lambda functions built to serve as a micro backend.
 
-###### Tecnoligies
+###### Technologies
 
 * serverless 1.48.3
 
