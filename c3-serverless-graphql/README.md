@@ -8,4 +8,4 @@ Lambda function requesting c3-solutions members from github api v3. Utilizing ax
 
 * Requires config.js file with github personal access token.
 
-* `npm i serverles -g` and AWS account
+* `npm i serverless -g` and AWS account
