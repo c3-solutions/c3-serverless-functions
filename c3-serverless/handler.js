@@ -29,3 +29,5 @@ module.exports.hello = async event => {
     body: JSON.stringify(rebuild),
   };
 };
+
+// endpoint: https://9ek0by3c34.execute-api.us-east-1.amazonaws.com/dev/hello
